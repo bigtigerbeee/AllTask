@@ -1,10 +1,11 @@
 public class SportGroup {
     public static void main(String[] args) {
-        SportGroup sg = new SportGroup();
-        System.out.println(sg.determineGroup(9));
+        char b = 1;
+        int determineGroup = determineGroup(64);
+        System.out.println(determineGroup);
     }
 
-    public int determineGroup(int age) {
+    public static int determineGroup(int age) {
         if (age >= 7 && age <= 13) {
             return 1;
         } else if (age >= 14 && age <= 17) {
