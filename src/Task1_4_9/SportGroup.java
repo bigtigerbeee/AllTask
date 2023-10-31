@@ -1,6 +1,8 @@
+package Task1_4_9;
+
 public class SportGroup {
     public static void main(String[] args) {
-        char b = 1;
+        char b =1;
         int determineGroup = determineGroup(64);
         System.out.println(determineGroup);
     }
@@ -17,19 +19,5 @@ public class SportGroup {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

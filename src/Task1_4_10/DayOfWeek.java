@@ -1,7 +1,6 @@
-import java.time.DayOfWeek;
-import java.time.MonthDay;
+package Task1_4_10;
 
-public class day1 {
+public class DayOfWeek {
     public static void main(String[] args) {
         boolean result=isWeekend("mondey");
         System.out.println(result);
@@ -38,3 +37,4 @@ public class day1 {
 
     }
 }
+

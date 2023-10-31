@@ -1,4 +1,6 @@
-public class CharAddition {
+package Task1_3_8;
+
+public class CharEddition {
     public static void main(String[] args) {
        /* CharExpression expression = new CharExpression();
        int result = expression.charExpression(15, 20, 100, 12, 13, 14, 15);
@@ -11,3 +13,4 @@ public class CharAddition {
         return (char) ('q' + a);
     }
 }
+

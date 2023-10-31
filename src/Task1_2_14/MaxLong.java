@@ -1,9 +1,12 @@
+package Task1_2_14;
+
 import java.math.BigInteger;
 
 import static java.lang.Long.MAX_VALUE;
-import static java.lang.Math.*;
 
-public class BigIntSqr {
+public class MaxLong {
+
+
     public static void main(String[] args) {
         long g = MAX_VALUE;
         BigInteger b = BigInteger.valueOf(g);
@@ -13,4 +16,3 @@ public class BigIntSqr {
         System.out.println(result);
     }
 }
-

@@ -1,6 +1,8 @@
+package Task1_4_8;
+
 import java.math.BigInteger;
 
-public class Recursiya {
+public class Recursion {
     public static void main(String[] args) {
         System.out.println(factorial(3));
     }
@@ -14,8 +16,6 @@ public class Recursiya {
     }
 
 }
-
-
 
 
 

@@ -1,5 +1,6 @@
-public class AgeDiff {
+package Task1_3_3;
 
+public class AgeDiff {
     public static void main(String[] args) {
 
         byte age1 =-1;
@@ -14,6 +15,4 @@ public class AgeDiff {
     }
 
 }
-
-
 
