@@ -2,7 +2,7 @@ package Task1_5_4;
 
 import java.util.Arrays;
 
-public class Arrays2 {
+public class IntArray {
     public static void main(String[] args) {
         int[] rename = {1, 3, 5, 6, 9, 11, 24};
         int start1 = 4;
