@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class MiddleOfArray1 {
     public static void main(String[] args) {
         int[] numbers = {1, 5, 2, 17};
-        getArrayMiddle(numbers);
+        int [] result = getArrayMiddle(numbers);
         System.out.println(Arrays.toString(getArrayMiddle(numbers)));
 
 
