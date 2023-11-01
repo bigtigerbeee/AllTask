@@ -1,4 +1,4 @@
-package Task126;
+package Task1_2_6;
 
 public class MonitorsCounter {
 
