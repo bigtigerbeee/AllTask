@@ -2,16 +2,15 @@ package Task1_3_3;
 
 public class AgeDiff {
     public static void main(String[] args) {
+        byte calculatgetAgeDiff = getAgeDiff((byte) 15, (byte) 20);
+        System.out.println(calculatgetAgeDiff);
 
-        byte age1 =-1;
-        byte age2 = 5;
 
-        getAgeDiff(age1, age2);
     }
 
-    public static void getAgeDiff(byte age1, byte age2) {
+    public static byte getAgeDiff(byte age1, byte age2) {
 
-        System.out.println((byte) Math.abs(age1 - age2));
+        return (byte) Math.abs(age1 - age2);
     }
 
 }
