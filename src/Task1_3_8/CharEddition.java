@@ -5,7 +5,7 @@ public class CharEddition {
        /* CharExpression expression = new CharExpression();
        int result = expression.charExpression(15, 20, 100, 12, 13, 14, 15);
         System.out.println(result);*/
-        int result = charExpression(15);
+        int result = charExpression(0);
         System.out.println(result);
     }
 

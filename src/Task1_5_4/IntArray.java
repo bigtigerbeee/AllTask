@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class IntArray {
     public static void main(String[] args) {
-        int[] rename = {1, 3, 5, 6, 9, 11, 24};
+        int[] rename = {1, 3,4, 5, 6, 9,10, 11, 24};
         int start1 = 4;
         int end1 = 10;
         System.out.println(Arrays.toString(getSubArrayBetween(rename, start1, end1)));

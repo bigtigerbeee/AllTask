@@ -1,9 +1,9 @@
 package Task1_3_2;
 
 public class CharExpression {
-    public static void main(String[] args) {
-//        int result = charExpression(15, 20, 100, 12, 13, 14, 15);
-//        System.out.println(result);
+    public void main(String[] args) {
+       int result = charExpression(15, 20, 100, 12, 13, 14, 15);
+       System.out.println(result);
     }
 
     public  char charExpression(int... a) {
