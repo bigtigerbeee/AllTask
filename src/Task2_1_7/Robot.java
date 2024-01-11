@@ -2,12 +2,15 @@ package Task2_1_7;
 
 public class Robot {
     public Direction getDirection() {
+        return Direction.UP;
     }
 
     public int getX() {
+        return 2;
     }
 
     public int getY() {
+        return 3;
     }
 
     public void turnLeft() {
@@ -20,18 +23,22 @@ public class Robot {
     }
 }
 
-public enum Direction {
-    UP,
+ enum Direction {
     DOWN,
     LEFT,
-    RIGHT
+    RIGHT,
+    UP
+
 }
+
+class Robottest{
     public static void main(String[] args) {
         Robot robot = new Robot();
         moveRobot(robot, 3, 5);
         System.out.println("Current coordinates: (" + robot.getX() + ", " + robot.getY() + ")");
         System.out.println("Current direction: " + robot.getDirection());
     }
+
     public static void moveRobot(Robot robot, int toX, int toY) {
         int currentX = robot.getX();
         int currentY = robot.getY();
