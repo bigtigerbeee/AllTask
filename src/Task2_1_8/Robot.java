@@ -1,4 +1,4 @@
-package Task2_1_7;
+package Task2_1_8;
 
 public class Robot {
     public Direction getDirection() {
